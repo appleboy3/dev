@@ -215,3 +215,25 @@ h2 {
     padding-top: 5rem;
   }
 }
+
+.hero-photo-card {
+  margin: 2rem 0 0;
+  overflow: hidden;
+  border: 1px solid color-mix(in oklab, var(--border) 75%, #ffffff 12%);
+  border-radius: 24px;
+  background: color-mix(in oklab, var(--card) 86%, #ffffff 6%);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+}
+
+.hero-photo-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.hero-photo-card figcaption {
+  padding: 0.85rem 1rem 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
